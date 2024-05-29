@@ -4,7 +4,7 @@
   * Level packs created with PeggleEdit should however still work on the Mac version of Peggle. Install them the same way your would install the official bonus levels.
 
 ### Will this work with Peggle 1 or Peggle Extreme? ###
-Currently the editor does not make it easy to create levels for the original Peggle game. The game does not have levelpacks which means the only way of playing your own levels is to overwrite an existing quickplay level. This would involve extracting the files from the .pak file. PeggleEdit will hopefully add an easy way of doing this.
+Currently the editor does not make it easy to create levels for the original Peggle game or Peggle Extreme. These games does not have levelpacks which means the only way of playing your own levels is to overwrite an existing quickplay level. This would involve extracting the files from the .pak file.
 
 ### Can I play my levels in the demo version of Peggle Nights? ###
 Yes, the demo version of Peggle Nights does not restrict levelpacks. As long as the levels do not set their minimum stage above 2, it should be playable.
