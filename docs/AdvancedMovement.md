@@ -23,35 +23,40 @@ What will happen now is that the object you created to "override" the second mov
 ## Step 1 ##
 Create a peg and select it.
 
-![img/advanced-movement/step1.png](img/advanced-movement/step1.png)
+![img/advanced-movement/submovement1.png](img/advanced-movement/submovement1.png)
 
 ## Step 2 ##
 Click the Object tab on the ribbon menu at the top of the main window. Then press the type button and select a movement type.
 
-![img/advanced-movement/step2.png](img/advanced-movement/step2.png)
+![img/advanced-movement/submovement2.png](img/advanced-movement/submovement2.png)
 
 ## Step 3 ##
-Then on the properties movement, find base movement under the Movement Info property of the peg. Click the ellipsis button to create another set of movement info properties for the first movement info.
+Create a circle and select it.
 
-![img/advanced-movement/step3.png](img/advanced-movement/step3.png)
+![img/advanced-movement/submovement3.png](img/advanced-movement/submovement3.png)
 
 ## Step 4 ##
+Click the Object tab on the ribbon menu at the top of the main window. Then press the type button and select a different movement type.
 
-The peg may change it's current position so you may need to set the anchor location of the first movement info to a low value such as (50, 0). This this essentially an offset to the base movement anchor.
-
-![img/advanced-movement/step4.png](img/advanced-movement/step4.png)
+![img/advanced-movement/submovement4.png](img/advanced-movement/submovement4.png)
 
 ## Step 5 ##
-Set the properties for the base movement info. Remember to set the movement type, the radius and the time period.
+Select the Circle and then click the peg while holding control.
 
-![img/advanced-movement/step5.png](img/advanced-movement/step5.png)
+![img/advanced-movement/submovement5.png](img/advanced-movement/submovement5.png)
+![img/advanced-movement/submovement6.png](img/advanced-movement/submovement6.png)
 
 ## Step 6 ##
-Now with the peg still selected and still on the object tab of the ribbon at the top of the main window. Click Link sub-movements.
+Now with the peg and circle still selected, go to the object tab of the ribbon at the top of the main window. Click Link sub-movements.
 
-![img/advanced-movement/step6.png](img/advanced-movement/step6.png)
+![img/advanced-movement/submovement7.png](img/advanced-movement/submovement7.png)
 
 ## Step 7 ##
-Doing this will produce a white circle above the level. Although the circle is at this location for now, when you next re-open the level, the circle will have a location reset to (0, 0). The circle has visible and collision set to false so that the ball does not collide with it and you cannot see the circle in the game.
+If you did it correctly it should look like simmilar to this, the peg should do its movement and the circle's movement at the same time
 
-![img/advanced-movement/step7.png](img/advanced-movement/step7.png)
+![img/advanced-movement/submovement8.png](img/advanced-movement/submovement8.png)
+
+Notes:
+Moving the circle will now also move the peg, but moving the peg will not also move the circle.
+Editing the circle's movement will also edit the peg's new submovement and editing the peg's new submovement will edit the circle's movement.
+
