@@ -3,11 +3,14 @@
   * Currently only Windows is supported. PeggleEdit is written in CSharp and .NET framework. It is possible to port it to other operating systems but a developer that has experience porting .NET applications would be required.
   * Level packs created with PeggleEdit should however still work on the Mac version of Peggle. Install them the same way your would install the official bonus levels.
 
-### Will this work with Peggle 1? ###
+### Will this work with Peggle 1 or Peggle Extreme? ###
 Currently the editor does not make it easy to create levels for the original Peggle game. The game does not have levelpacks which means the only way of playing your own levels is to overwrite an existing quickplay level. This would involve extracting the files from the .pak file. PeggleEdit will hopefully add an easy way of doing this.
 
 ### Can I play my levels in the demo version of Peggle Nights? ###
 Yes, the demo version of Peggle Nights does not restrict levelpacks. As long as the levels do not set their minimum stage above 2, it should be playable.
+
+### Can I play my levels in Peggle World of Warcraft Edition? ###
+Yes, Peggle World of Warcraft Edition does support levelpacks. As long as the levels do not set their minimum stage above 2, it should be playable.
 
 ### I get an error when saving, "file is being used by another process" ###
 This might be because Peggle Nights is running, if not something else has the .pak file open. Turn Peggle Nights off to overcome this error.
