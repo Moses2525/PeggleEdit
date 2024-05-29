@@ -52,11 +52,12 @@ Now with the peg and circle still selected, go to the object tab of the ribbon a
 ![img/advanced-movement/submovement7.png](img/advanced-movement/submovement7.png)
 
 ## Step 7 ##
-If you did it correctly it should look like simmilar to this, the peg should do its movement and the circle's movement at the same time
+If you did it correctly it should look simmilar to this, the peg should do its movement and the circle's movement at the same time
 
 ![img/advanced-movement/submovement8.png](img/advanced-movement/submovement8.png)
 
 Notes:
 Moving the circle will now also move the peg, but moving the peg will not also move the circle.
+
 Editing the circle's movement will also edit the peg's new submovement and editing the peg's new submovement will edit the circle's movement.
 
